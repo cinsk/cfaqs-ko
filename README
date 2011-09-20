@@ -1,0 +1,31 @@
+-*-text-*-
+
+This is the source files for the Korean version of C Programming FAQ,
+the official FAQ from Usenet comp.lang.c which is written by Steve
+Summit <scs@eskimo.com>.
+
+The original version (in English) can be found at
+
+    http://c-faq.com/
+
+    (previously)  http://www.eskimo.com/~scs/
+
+
+
+To build the output, you need recent version of Latex, and latex2html.
+I tested in following environment:
+
+    TexLive 2010  (in Gentoo Linux)      http://tug.org/texlive/
+    latex2html 2008  (in Gentoo Linux)   http://www.latex2html.org/
+
+Once you're prepared, simply run 'make' to build PDF and HTML output.
+
+    $ make
+    
+
+
+If you want to contribute for new contents/errta, read the RULES file
+first, then send me an e-mail to describe the problem or new contents.
+
+    <cinsky@gmail.com>
+
