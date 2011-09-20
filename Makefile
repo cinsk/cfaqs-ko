@@ -2,10 +2,18 @@
 # $Id$
 #
 
-ifndef TOPDIR
-	TOPDIR=$(shell pwd)/..
-	include $(TOPDIR)/config.mak
-endif
+#ifndef TOPDIR
+#	TOPDIR=$(shell pwd)/..
+#	include $(TOPDIR)/config.mak
+#endif
+
+# Executable pathnames
+LATEX=latex
+DVIPS=dvips
+DVIPDFMX=dvipdfmx
+GZIP=/bin/gzip
+BZIP=/bin/bzip2
+LATEX2HTML=latex2html
 
 SRC=arrayptr.tex charstr.tex floats.tex nullptr.tex sproblem.tex style.tex \
 	bib.tex decinit.tex libfunc.tex pointer.tex standard.tex sysdep.tex \
