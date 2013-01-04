@@ -1,10 +1,10 @@
 # Files that GIT should ignore
 # See gitignore(5) for the format of this file
 
-cfaqs-ko.aux
-cfaqs-ko.dvi
-cfaqs-ko.log
-cfaqs-ko.pdf*
-cfaqs-ko.toc
+/cfaqs-ko.aux
+/cfaqs-ko.dvi
+/cfaqs-ko.log
+/cfaqs-ko.pdf*
+/cfaqs-ko.toc
 /html/
 *~
