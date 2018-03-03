@@ -11,8 +11,8 @@
 LATEX=latex
 DVIPS=dvips
 DVIPDFMX=dvipdfmx
-GZIP=/bin/gzip
-BZIP=/bin/bzip2
+GZIP=gzip
+BZIP=bzip2
 LATEX2HTML=latex2html
 
 SRC=arrayptr.tex charstr.tex floats.tex nullptr.tex sproblem.tex style.tex \
