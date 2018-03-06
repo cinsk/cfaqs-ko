@@ -61,6 +61,10 @@ clean:
 	rm -f cfaqs-ko.aux cfaqs-ko.log cfaqs-ko.toc
 	rm -rf html
 
+copy-parent: all
+	mkdir -p $(TOP_DIR)/files/cfaqs/
+	cp -a cfaqs-ko.pdf cfaqs-ko.pdf.gz cfaqs-ko.pdf.bz2 html $(TOP_DIR)/files/cfaqs/
+
 upload: all
 	ssh $(REMOTE_USR)@$(REMOTE_HOST) \
 		"cd && mkdir -p $(REMOTE_PREFIX)/cfaqs/html"
